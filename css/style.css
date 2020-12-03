@@ -1,0 +1,45 @@
+@import url(
+  'reset.css'
+);
+nav {
+  border: 2px dashed green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-grey-block {
+  background: grey;
+  height: 25px;
+  width: 50px;
+}
+
+nav .nav-container {
+  border: 2px solid purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 66%;
+      flex-basis: 66%;
+}
+
+nav .nav-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  list-style: none;
+  border: 2px solid red;
+}
+/*# sourceMappingURL=style.css.map */

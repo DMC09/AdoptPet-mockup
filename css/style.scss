@@ -1,0 +1,27 @@
+@import 'reset.css';
+
+ 
+nav{
+    border: 2px dashed green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-grey-block{
+        background:grey;
+        height: 25px;
+        width: 50px;
+    }
+    .nav-container{
+        border:2px solid purple;
+        display: flex;
+        flex-basis: 66%;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width:100%;
+            list-style: none;
+            border: 2px solid red;
+        }
+    }
+}
