@@ -1,8 +1,11 @@
-@import url(
-  'reset.css'
-);
+@import url(/Users/dharminchauhan/Desktop/Projects/Portfolio Projects/AdoptPet-mockup/css/reset.css);
+html,
+body {
+  background: #fffff;
+  font-family: system-ui;
+}
+
 nav {
-  border: 2px dashed green;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,21 +15,29 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 3rem;
 }
 
 nav .nav-grey-block {
-  background: grey;
+  background: #f3f3f3;
   height: 25px;
-  width: 50px;
+  border-radius: 20px;
+  margin-left: 2rem;
+  width: 150px;
 }
 
 nav .nav-container {
-  border: 2px solid purple;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-preferred-size: 66%;
-      flex-basis: 66%;
+  -ms-flex-preferred-size: 55%;
+      flex-basis: 55%;
+}
+
+nav .nav-container span.down-arrow {
+  color: #929292;
+  font-size: 0.8rem;
+  margin-left: 0.25rem;
 }
 
 nav .nav-container ul {
@@ -38,8 +49,153 @@ nav .nav-container ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
+  width: 1000%;
   list-style: none;
-  border: 2px solid red;
+  padding: 0rem 2rem;
+}
+
+nav .nav-container ul button {
+  background: #5272ca;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  height: 45px;
+  width: 100px;
+  font-size: 1rem;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.hero .hero-info {
+  width: 50%;
+}
+
+.hero .hero-info h2 {
+  font-size: 3rem;
+}
+
+.hero .hero-info p {
+  color: #929292;
+}
+
+.hero .hero-info button {
+  background: #5272ca;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  height: 45px;
+  width: 100px;
+  font-size: 1rem;
+}
+
+.hero .circle-gallery {
+  width: 66%;
+}
+
+.hero .circle-gallery img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.menu-tiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu-tiles div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.menu-tiles div img {
+  border-radius: 10px;
+  height: 150px;
+  width: 265px;
+}
+
+.menu-tiles div p {
+  color: black;
+}
+
+.current-pets {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.current-pets a {
+  position: relative;
+  top: 125px;
+  left: 94%;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.pet-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.pet-container .petcard {
+  margin-right: 2rem;
+  text-align: left;
+}
+
+.pet-container .petcard img {
+  height: 200px;
+  width: 175px;
+  border-radius: 10px;
+}
+
+.pet-container .petcard p {
+  font-weight: 700;
+  color: black;
+}
+
+.pet-container .petcard span {
+  color: #929292;
+}
+
+.pet-container .chev-container i {
+  position: relative;
+  color: #929292;
+  top: 30%;
+  left: -56px;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: 13px 13px 26px #dedede,  -13px -13px 26px #ffffff;
+          box-shadow: 13px 13px 26px #dedede,  -13px -13px 26px #ffffff;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  color: #929292;
 }
 /*# sourceMappingURL=style.css.map */
