@@ -1,4 +1,4 @@
-@import "reset.css";
+
 @mixin blue-btn {
   background: #5272ca;
   border-radius: 10px;
@@ -82,7 +82,7 @@ nav {
   width: 80%;
   margin: 0 auto;
   text-align: center;
- 
+
   div {
     display: flex;
     flex-flow: column;
@@ -131,13 +131,13 @@ margin-right: 2rem;
     .chev-container{
         i  {
             position: relative;
-color:darken( #DEDEDE,30%);  
+color:darken( #DEDEDE,30%);
             top: 30%;
             left: -56px;
             padding: 0.7rem 1rem;
             border-radius: 10px;
             background: rgba($color: #ffffff, $alpha: 0.9);
-            box-shadow:   13px 13px 26px #dedede, 
+            box-shadow:   13px 13px 26px #dedede,
             -13px -13px 26px #ffffff;
 
         }
@@ -147,6 +147,5 @@ color:darken( #DEDEDE,30%);
     font-size: 3rem;
   }
   p {
-color:darken( #DEDEDE,30%); 
+color:darken( #DEDEDE,30%);
   }
-
