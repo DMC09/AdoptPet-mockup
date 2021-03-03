@@ -6,6 +6,6 @@ A Landing page redesign from a Dribble shot by Alex Dyakov
 <br>
 [Live](https://dmc09.github.io/AdoptPet-mockup/)
 
-## Tech Stack
+## Tech stack
 * HTML
 * CSS
